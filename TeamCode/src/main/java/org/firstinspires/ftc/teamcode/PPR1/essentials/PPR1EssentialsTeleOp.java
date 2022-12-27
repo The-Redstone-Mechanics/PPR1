@@ -34,8 +34,8 @@ public class PPR1EssentialsTeleOp extends LinearOpMode {
     double horizontal;
     float pivot;
 
-    double clawGrab = 0.6;
-    double clawOpenFront = 1;
+    double clawGrab = 0.5; //Lower grabs more
+    double clawOpenFront = 1; //
     double clawOpenBack = 1;
 
     int drivetrainVelocityRate; // Converts power to ticks
